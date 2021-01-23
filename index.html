@@ -15,38 +15,33 @@
             overflow-y:auto;
             background-color: beige;
             padding: 100px 10px;
-            transition: 0.4s;
             position:fixed;
             width:100%;
             top: 0;
-            z-index: 100;
             font-size: 30px;
+            opacity: .8;
 
         }
 
-        #navbar-rightlinks {
-            float:inline-end;
+        #navbar_rightlinks {
+            
             color:black;
-            text-align: end;
-            line-height: 25px;
-            border-radius: 4px;
-            text-decoration: none;
             font-size: 30px;
+            scroll-padding-top: 30px;
             
-            
-        }
+            }
 
         .main {
-            margin-top: 275px;
+            margin-top: 30px;
             margin-right: auto;
             text-align: center;
             
-
         }
-
-
-
-    </style>
+        .responsive {
+            width: 100%;
+            height: auto;
+            }
+        </style>
 
 
 </head>
@@ -54,24 +49,29 @@
       
         <header> 
             <div id="nav_bar">
-                Hi my name is Jordan
-                <div id="navbar-rightlinks">
+                Hi, my name is Jordan.
+                <span id="navbar_rightlinks">
           
                 <!-- Link to every section in the page -->
+                <a href="#home">Home</a>
                 <a href="#aboutme">About</a>
                 <a href="#resume">Resume</a>
-            <a href="#contactinfo">Contact</a>
+                <a href="#contactinfo">Contact</a>
            
-            </div>  
+                </span>  
             </div>
           
          </header>
+         <section id="home">
+            <img src="IMG_1309.jpeg" alt="Glacier" class="responsive">
+        </section>
       
         
       <div class="main">
+
         <section id="aboutme">
           <h3>About Me</h3>
-          <p>Hi my name is Jordan. This is where I'm going to write a story about throwing all my shit in a rental car and driving across country to live here simply because I wanted to get into computer science and what better place to do so....</p>
+          <p>"Hi my name is Jordan. This is where I'm going to write a story about throwing all my shit in a rental car and driving across country to live here simply because I wanted to get into computer science and what better place to do so....</p>
         </section>
       
         <section id="resume">
