@@ -34,28 +34,44 @@
             }
 
         .main {
-            margin-top: 30px;
+            margin-top: 50px;
             margin-right: auto;
             text-align: center;
+            padding-top:60px;
             
         }
         .responsive {
             width: 100%;
             height: auto;
             }
+          
+        .icon {
+          width: 110px;
+          height: 100px;
+          padding: 50px 50px 50px 50px;
+        }
+        /*Special padding/margin combo to account for fixed nav bar overlap */
+        .topsection{
+          text-align: center;
+          padding-top:100px;
+          margin-top:-100px;
+        }
+        *{
+          font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
         </style>
 
 
 </head>
-    <body>
-      
+    <body>      
         <header> 
             <div id="nav_bar">
                 Hi, my name is Jordan.
                 <span id="navbar_rightlinks">
           
-                <!-- Link to every section in the page -->
-                <a href="#home">Home</a>
+                <!-- Link to each section in page -->
+                <a href="#home">Glacier</a>
                 <a href="#aboutme">About</a>
                 <a href="#resume">Resume</a>
                 <a href="#contactinfo">Contact</a>
@@ -68,32 +84,28 @@
             <img src="IMG_1309.jpeg" alt="Glacier" class="responsive">
         </section>
       
-        
+
       <div class="main">
 
-        <section id="aboutme">
+
+
+        <section id="aboutme" class="topsection">
           <h3>About Me</h3>
-          <p>"Hi my name is Jordan. This is where I'm going to write a story about throwing all my shit in a rental car and driving across country to live here simply because I wanted to get into computer science and what better place to do so....</p>
+          <p>Hi, my name is Jordan. I threw all my stuff in a rental car and drove cross country from Indianapolis 5 years ago to the Bay Area because I wanted to get into computer science and what better place to do so....</p>
         </section>
       
         <section id="resume">
           <h3>Resume</h3>
-          <p>here im going to most likely load a pdf image of my resume so i dont have to worry too much about formatting</p>
           <p>
-              <embed src="jc_resume.pdf" width="900" height="1200">
+              <embed src="jordan_cates_resume.pdf" width="900" height="1200">
           </p>
         </section>
         <section id="contactinfo">
-          <h3>Contact Information</h3>
-          <p>here i will put maybe icons or links to my differet web pages</p>
-        </section>
-        <section id="section4">
-          <h2>(#section4) Section 4</h2>
-          <p>might delete this but ill keep it for now.</p>
-        </section>
-            <p>
-            Back to top: <a href="#top">Back to Top</a>
-          </p>
+            <span>
+              <a href="https://github.com/helloimjordan"><img src="github.png" class="icon"></a>
+              <a href="https://www.linkedin.com/in/himynameisjordan/"> <img src="linkedin.png" class="icon"></i></a>
+            </span>
+         
      
     </div>
     

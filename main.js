@@ -1,5 +1,5 @@
 window.onscroll = function() {scrollFunction()};
-onclick = alert("hello!");
+
 
 function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
